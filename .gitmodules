@@ -1,0 +1,6 @@
+[submodule "go-voip"]
+	path = go-voip
+	url = https://github.com/yixinin/go-voip.git
+[submodule "livechat-wpf"]
+	path = livechat-wpf
+	url = https://github.com/yixinin/livechat-wpf.git
