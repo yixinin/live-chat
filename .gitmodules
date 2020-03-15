@@ -4,3 +4,9 @@
 [submodule "livechat-wpf"]
 	path = livechat-wpf
 	url = https://github.com/yixinin/livechat-wpf.git
+[submodule "go-lib"]
+	path = go-lib
+	url = https://github.com/yixinin/go-lib.git
+[submodule "go-chat"]
+	path = go-chat
+	url = https://github.com/yixinin/go-chat.git
