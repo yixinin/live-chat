@@ -1,0 +1,40 @@
+version: "3"
+services:
+    redis:
+        image: redis
+        container_name: redis
+        ports:
+            - 6379:6379
+        networks:
+            - rpg
+    mysql:
+        image: mysql
+        container_name: mysql
+        ports:
+            - 3306:3306
+        networks:
+            - rpg
+        environment: #添加环境变量
+            MYSQL_ROOT_PASSWORD: 123456
+            # MYSQL_USER: root
+            # MYSQL_PASSWORD: 123456
+    etcd:
+        image: xieyanze/etcd3
+        # image: elcolio/etcd
+        container_name: etcd
+        ports:
+            - 2379:2379
+        expose:
+            - 2380
+        networks:
+            - rpg
+    mongo:
+        image: mongo
+        container_name: mongo
+        ports:
+            - 27017:27017
+        networks:
+            - rpg
+networks:
+    rpg:
+        driver: bridge
