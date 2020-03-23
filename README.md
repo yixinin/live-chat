@@ -37,6 +37,15 @@
 如何使用：
 - git clone https://github.com/yixinin/live-chat.git
 - git submodule update --init --recursive (加载子模块)
+
+使用docker-compose
+- cd live-chat
+- ./build.sh
+- cd docker-compose
+- docker-compose up -d 
+- (需要创建数据库后重启服务)
+
+手动编译：
 - 安装etcd,mysql,mongo,redis
 - 分别创建mysql,mongodb数据库
 - 分别在go-voip, go-chat 目录 执行 go build
