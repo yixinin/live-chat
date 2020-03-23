@@ -1,12 +1,12 @@
 [submodule "go-voip"]
 	path = go-voip
-	url = https://github.com/yixinin/go-voip.git
+	url = git@github.com:yixinin/go-voip.git
 [submodule "livechat-wpf"]
 	path = livechat-wpf
-	url = https://github.com/yixinin/livechat-wpf.git
+	url = git@github.com:yixinin/livechat-wpf.git
 [submodule "go-lib"]
 	path = go-lib
-	url = https://github.com/yixinin/go-lib.git
+	url = git@github.com:yixinin/go-lib.git
 [submodule "go-chat"]
 	path = go-chat
-	url = https://github.com/yixinin/go-chat.git
+	url = git@github.com:yixinin/go-chat.git
