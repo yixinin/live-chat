@@ -53,7 +53,7 @@
 - 分别运行 chat,voip服务
 
 客户端：
-- 使用vs2019打开livechat.wpf项目 添加引用OpenH264Lib.dll (dll目录livechat-wpf\Voip\dll)
+- 使用vs2019打开livechat.wpf项目 添加引用OpenH264Lib.dll (dll目录位于livechat-wpf\Voip\dll)
 - 解决方案平台选择x64
 - 复制dll/openh264-2.0.0-win64.dll至项目 bin/x64/debug/openh264-2.0.0-win64.dll
 - 编辑 livechat-wpf/Voip/Config.cs 11行对应的服务器地址配置 （多客户端）
