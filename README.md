@@ -55,4 +55,4 @@
 - 解决方案平台选择x64
 - 复制openh264-2.0.0-win64.dll至项目 bin/x64/debug/openh264-2.0.0-win64.dll
 - 编辑 livechat-wpf/Voip/Config.cs 11行对应的服务器地址 （多客户端）
-- 运行
+- 运行调试
