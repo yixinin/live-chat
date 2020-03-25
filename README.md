@@ -58,3 +58,17 @@
 - 复制dll/openh264-2.0.0-win64.dll至项目 bin/x64/debug/openh264-2.0.0-win64.dll
 - 编辑 livechat-wpf/Voip/Config.cs 11行对应的服务器地址配置 （多客户端）
 - 运行调试
+
+测试客户端发布：
+- 链接: https://pan.baidu.com/s/10T-xDudjTqHBaoK7ib8gXQ 提取码: w26w
+
+如何安装：
+- 解压
+- 安装证书(InstallVoip_0.1.0.0_x64_Debug.cer) 
+    
+        本地计算机->
+        将所有证书都放入下列存储->
+        浏览->
+        第三方根证书颁发机构->
+        确定
+- 安装应用程序 (InstallVoip_0.1.0.0_x64_Debug.msixbundle)
