@@ -2,6 +2,13 @@
 
 在线语音/视频通话服务：
 
+测试客户端发布：
+- 链接: https://pan.baidu.com/s/10T-xDudjTqHBaoK7ib8gXQ 提取码: w26w
+- 账号：
+
+        uname:yixin pwd:asdasd; 
+        uname:yixinin pwd:asdasd;
+
 开发语言：
 - golang 服务器后台
 - C#(WPF) 前端
@@ -59,12 +66,6 @@
 - 编辑 livechat-wpf/Voip/Config.cs 11行对应的服务器地址配置 （多客户端）
 - 运行调试
 
-测试客户端发布：
-- 链接: https://pan.baidu.com/s/10T-xDudjTqHBaoK7ib8gXQ 提取码: w26w
-- 账号：
-
-        uname:yixin pwd:asdasd; 
-        uname:yixinin pwd:asdasd;
 
 如何安装：
 - 解压
