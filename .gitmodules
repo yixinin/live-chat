@@ -10,3 +10,6 @@
 [submodule "go-chat"]
 	path = go-chat
 	url = git@github.com:yixinin/go-chat.git
+[submodule "go-webrtc"]
+	path = go-webrtc
+	url = https://github.com/yixinin/go-webrtc.git
