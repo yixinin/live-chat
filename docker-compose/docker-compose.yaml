@@ -36,9 +36,6 @@ services:
             - 2379
         networks:
             - livechat
-        # links:
-        #     - chat
-        #     - voip
     mongo:
         image: mongo
         container_name: mongo
