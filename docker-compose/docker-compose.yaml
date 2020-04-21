@@ -59,12 +59,8 @@ services:
             - 8180:8180
         expose:
             - 8181
-        # links:
-        #     - redis
-        #     - mongo
-        #     - etcd
-        #     - mysql
-        # - voip
+        volumes:
+            - /config:/root/chat/config
         networks:
             - livechat
     voip:
@@ -76,9 +72,8 @@ services:
             - 8282:8282
         expose:
             - 8282
-        # links:
-        #     - etcd
-        # - chat
+        volumes:
+            - /config:/root/voip/config
         networks:
             - livechat
 networks:
